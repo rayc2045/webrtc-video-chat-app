@@ -1,9 +1,6 @@
 const socket = io('/');
 const videoContainer = document.querySelector('.video-container');
-const myPeer = new Peer(undefined, {
-  host: '/',
-  port: '3001',
-});
+const myPeer = new Peer();
 const myVideo = document.createElement('video');
 myVideo.muted = true;
 
