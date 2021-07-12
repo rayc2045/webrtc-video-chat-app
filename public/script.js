@@ -22,7 +22,13 @@ navigator.mediaDevices
         addVideoStream(video, userVideoStream)
       );
     });
-    socket.on('user-connected', userId => connectToNewUser(userId, stream));
+    socket.on('user-connected', userId => {
+      // User is joining
+      setTimeout(() => {
+        // User joined
+        connectToNewUser(userId, stream);
+      }, 1000);
+    });
   });
 
 socket.on('user-disconnected', userId => {
