@@ -1,6 +1,6 @@
 # Video Chat App Build with WebRTC and Socket.io
 
-[![Photo](https://raw.githubusercontent.com/rayc2045/webrtc-video-chat-app/main/public/cover.png)](https://rayc-video-chat.herokuapp.com/)
+[![Photo](https://raw.githubusercontent.com/rayc2045/webrtc-video-chat-app/main/public/demo.png)](https://rayc-video-chat.herokuapp.com/)
 
 [> Chat with friends online](https://rayc-video-chat.herokuapp.com/)
 
